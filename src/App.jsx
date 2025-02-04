@@ -11,7 +11,7 @@ import logo from './assets/logo.png'
 
 function App() {
   return (
-    <div className="App w-screen h-screen bg-[url('./assets/bg.jpg')] bg-cover">
+    <div className="App bg-[url('./assets/bg.jpg')] bg-cover">
       <img src={logo} className='w-[100px] fixed'/>
       <Navbar/>
       <Routes>
