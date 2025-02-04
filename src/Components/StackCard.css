@@ -1,0 +1,29 @@
+@keyframes dropStack{
+    0%{
+        transform:translateY(-200px);
+        opacity:0;
+    }
+    100%{
+        transform:translateY(0px);
+        opacity: 1;
+    }
+}
+
+.animateStackAdd{
+    animation: dropStack 1s ease-in-out;
+}
+
+@keyframes popUpStack{
+    0%{
+        transform:translateY(0px);
+        opacity:1;
+    }
+    100%{
+        transform:translateY(-200px);
+        opacity: 0;
+    }
+}
+
+.animateStackRemove{
+    animation: popUpStack 1s ease-in-out;
+}
